@@ -1,0 +1,29 @@
+.grid-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns:  600px 1fr;
+    column-gap: 0px;
+     text-align: center;
+    background-color: #023020;
+    /* grid-auto-rows: 60px; */
+
+    /* grid-gap: 20px; */
+}
+
+.grid-container img {
+      margin-left: 200px;
+        width: 400px;
+       height: 400px;}
+.grid-item{
+        margin-left: 400px; 
+        align-items:end;
+        text-align: start;
+        }
+        .grid-item h1{color: goldenrod;}
+        .grid-item h2{color: white;}
+        .grid-item p{color: white;}
+        .grid-item button{
+            background-color: goldenrod;
+            height:30px ;
+            border-radius: 8px;
+        }

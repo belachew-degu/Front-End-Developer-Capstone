@@ -1,0 +1,21 @@
+footer{
+    display: grid;
+   grid-template-columns: repeat(4,300px);
+   /* grid-auto-rows:minmax(150px,auto); */
+   grid-auto-rows:auto;
+   column-gap:2rem;
+   text-align: center;
+   font-weight: bold;
+   /* margin-left: 20%;  */
+   border-top: 5px solid red;
+}
+/* .footer_column{
+    padding: 15px;
+} */
+.list{
+     list-style: none;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.list h2{color: #013220;}
