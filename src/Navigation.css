@@ -1,0 +1,35 @@
+* {
+  font-family: "Markazi Text", "Karla", serif;
+}
+menu {
+  list-style: none;
+  display: grid;
+}
+a:visited,
+Link:visited,
+a:link,
+Link:link {
+  text-decoration: none;
+  color: black;
+}
+.navbar-menu {
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+}
+
+.navbar-menu > li,
+.navbar-menu > a,
+.navbar-menu > Link {
+  text-align: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.nav-image {
+  max-height: 4rem;
+  margin-top: 0.7rem;
+  margin-left: -1.25rem;
+}
+.hover-effect:hover {
+  background-color: #f4ce14;
+  transition: 0.25s;
+}

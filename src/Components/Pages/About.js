@@ -1,8 +1,9 @@
 import React from 'react'
+import Heading from '../aboutPages/Heading'
 
 function About() {
   return (
-    <div>About</div>
+    <><Heading /></>
   )
 }
 

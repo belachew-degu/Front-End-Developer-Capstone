@@ -1,0 +1,28 @@
+
+* {
+  font-family: "Markazi Text", "Karla", serif;
+}
+.burger {
+  display: none;
+  grid-template-columns: 5fr 1fr;
+}
+.nav-image {
+  max-height: 4rem;
+  margin-top: 0.7rem;
+  margin-left: -1.25rem;
+}
+.burger-icon {
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .burger {
+    display: grid;
+  }
+
+  .burger > img {
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+  }
+
+}

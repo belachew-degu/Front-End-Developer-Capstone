@@ -1,20 +1,18 @@
 import './App.css';
 import Footer from './Footer';
-import Header from './Header';
-import Hero from './Hero';
-import Specials from './Specials';
-import Testimonials from './Testimonials';
+import Navbar from './Navbar';
+import Routing from './Routing';
 
 function App() {
   return (
-    <div className='app'>
-        <Header />
-        <Hero />
-        <Specials />
-        <Testimonials />
-        <Footer />
-    </div>
-  );
+    <>
+     <Navbar />
+      <Routing />
+      <Footer />
+    </>
+  )
+  
+  
 }
 
 export default App;
