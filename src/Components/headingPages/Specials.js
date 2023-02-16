@@ -1,5 +1,5 @@
 import React from 'react'
-import './Specials.css'
+// import './Specials.css'
 import LemonDessert from '../../img/lemon dessert.jpg'
 import GreekSalad from '../../img/greeksalad.jpg'
 import Bruschetta from '../../img/bruchetta.svg'

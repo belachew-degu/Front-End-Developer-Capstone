@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import './BookingForm.css'
+// import './BookingForm.css'
  function ReservationForm(props) {
   const [fName, setFName] = useState("");
   const [lName, setLName] = useState("");
@@ -11,15 +11,11 @@ import './BookingForm.css'
   const [occasion, setOccasion] = useState("");
   const [preferences, setPreferences] = useState("");
   const [comments, setComments] = useState("");
-
+console.log(props.availableTimes)
   const [finalTime, setFinalTime] = useState(
     props.availableTimes.map((times) => <option>{times}</option>)
   );
-  test('Renders the BookingForm heading', () => {
-    render(<BookingForm />);
-    const headingElement = screen.getByText("Book Now");
-    expect(headingElement).toBeInTheDocument();
-})
+console.log(finalTime)
   function handleDateChange(e) {
     setDate(e.target.value);
 
@@ -28,7 +24,8 @@ import './BookingForm.css'
 
     props.updateTimes(date);
 
-    setFinalTime(props.availableTimes.map((times) => <option>{times}</option>));
+    setFinalTime(props.availableTimes.map((times) => 
+    <option>{times}</option>));
   }
 
   return (

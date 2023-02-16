@@ -1,5 +1,6 @@
 import React from 'react'
-import HeroImage from "../../img/food4.webp";
+// import '../reservePages/Heading.css'
+import HeroImage from  "../../img/food4.webp";
 function Heading() {
   return (
     <header className="reserve-table">

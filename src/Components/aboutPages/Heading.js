@@ -1,5 +1,5 @@
 import React from 'react'
-import './Heading.css'
+// import '../reservePages/Heading.css'
 import HeroImage from "../../img/food4.webp";
 
 function Heading() {

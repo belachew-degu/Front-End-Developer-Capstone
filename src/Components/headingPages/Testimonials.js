@@ -1,5 +1,5 @@
 import React from 'react'
-import './Testimonials.css'
+// import './Testimonials.css'
 import Carousel from './TestimonialCarousel'
 import TestimonialCard from './CardInfo/TestimonialCard';
 function Testimonials() {

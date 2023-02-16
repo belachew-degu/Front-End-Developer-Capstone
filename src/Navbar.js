@@ -1,6 +1,6 @@
 import React,{ useState } from 'react'
 import Navigation from "./Navigation";
-import './Navbar.css'
+// import './Navbar.css'
 import Hamburger from "./img/hamburger.png";
 import Close from "./img/close.png";
 

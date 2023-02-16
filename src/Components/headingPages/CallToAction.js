@@ -1,10 +1,11 @@
 import React from 'react'
 import Restauranfood from '../../img/restauranfood.jpg'
-import './CallToAction.css'
+// import './CallToAction.css'
 import {Link} from 'react-router-dom'
 function CallToAction() {
   return (
-    <div className="call-to-action">
+    <header>
+    <article className="call-to-action">
             <section className="hero-text">
                 <h1>Little Lemon</h1> 
                 <h2>Portland</h2> 
@@ -22,7 +23,8 @@ function CallToAction() {
           <img src={Restauranfood} alt="" />
         </div>
         {/* </div> */}
-    </div>
+    </article>
+    </header>
   )
 }
 

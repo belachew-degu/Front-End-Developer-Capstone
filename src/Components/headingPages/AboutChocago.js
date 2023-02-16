@@ -1,5 +1,5 @@
 import React from 'react'
-import './AboutChocago.css'
+// import './AboutChocago.css'
 
 function AboutChocago() {
   return (
@@ -14,8 +14,8 @@ function AboutChocago() {
             </section>
 
             <section className="double-image">
-                <img className="about-1" src={require('./img/food3.jpeg')} alt="Little Lemon restaurant cuisine 1"></img>
-                <img className="about-2" src={require('./img/food2.jpeg')} alt="Little Lemon restaurant cuisine 2"></img>
+                <img className="about-1" src={require('../../img/food3.jpeg')} alt="Little Lemon restaurant cuisine 1"></img>
+                <img className="about-2" src={require('../../img/food2.jpeg')} alt="Little Lemon restaurant cuisine 2"></img>
             </section>
     </article>
   )

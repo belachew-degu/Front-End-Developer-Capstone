@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Logo from './img/nav-logo.png'
-import './Navigation.css'
+// import './Navigation.css'
 function Navigation(props) {
   return (
     <menu className={`navbar-menu ${props.device}`}> 
@@ -32,7 +31,7 @@ function Navigation(props) {
       </a>
             {/* <Link to="/menu" className="hover-effect"><h1>Menu</h1></Link> */}
             <Link to="/reservations" className="hover-effect"><h1>Reservations</h1></Link>
-            <Link to="/orderonline" className="hover-effect"> <h1>Order</h1></Link>
+            <Link to="/order" className="hover-effect"> <h1>Order</h1></Link>
             <Link to="/login" className="hover-effect"> <h1>Login</h1></Link>
 
         {/* </div> */}
